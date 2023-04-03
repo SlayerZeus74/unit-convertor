@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #000000;
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+}
+
+#container {
+  height: 729px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+#section1 {
+  height: 285px;
+  background: #e11d48;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 33px 0 34px 0;
+}
+
+.heading-main {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+#input {
+  /* margin-top: 30px;; */
+  height: 83px;
+  width: 117px;
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 800;
+  text-align: center;
+  background: none;
+  color: #ffffff;
+  border: 2px solid #fb7185;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+
+#input:focus, textarea:focus, select:focus {
+    outline: none;
+ }
+
+ #input::placeholder{
+    color: inherit;
+ }
+
+#main-btn {
+  margin-top: 26px;
+  height: 42px;
+  width: 117px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+#section2 {
+  height: 444px;
+  width: inherit;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 0 36px 0;
+}
+
+#length {
+  height: 108px;
+  width: 500px;
+  background-color: #ffffff;
+  padding: 31px 0 18px 0;
+}
+
+
+#volume {
+  height: 108px;
+  width: 500px;
+  background-color: #ffffff;
+  padding: 31px 0 18px 0;
+}
+
+#mass {
+  height: 108px;
+  width: 500px;
+  background-color: #ffffff;
+  padding: 31px 0 18px 0;
+}
+
+
+.heading{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FB7185;
+}
+
+
+.convert{
+    margin-top: 9px; 
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
