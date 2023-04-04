@@ -8,17 +8,16 @@
 
 body {
   text-align: center;
-  background-color: #000000;
+  background: #1F2937;
   font-family: "Inter", sans-serif;
   font-family: "Karla", sans-serif;
 }
 
 #container {
-  height: 729px;
+  height: auto;
   width: 550px;
-  display: flex;
-  flex-direction: column;
   margin: 10px auto;
+  border-radius: 20px;
 }
 
 #section1 {
@@ -29,6 +28,8 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding: 33px 0 34px 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .heading-main {
@@ -82,16 +83,24 @@ body {
   cursor: pointer;
 }
 
+#main-btn:hover{
+  background-color: #e11d48;
+  border: 1px solid white;
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
 
 #section2 {
   height: 444px;
-  width: inherit;
   background: #f4f4f4;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 36px 0 36px 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 #length {
@@ -99,6 +108,8 @@ body {
   width: 500px;
   background-color: #ffffff;
   padding: 31px 0 18px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgb(224, 218, 218);
 }
 
 
@@ -107,6 +118,8 @@ body {
   width: 500px;
   background-color: #ffffff;
   padding: 31px 0 18px 0;
+  box-shadow: 0 0 8px rgb(224, 218, 218);
+  border-radius: 5px;
 }
 
 #mass {
@@ -114,6 +127,8 @@ body {
   width: 500px;
   background-color: #ffffff;
   padding: 31px 0 18px 0;
+  box-shadow: 0 0 8px rgb(224, 218, 218);
+  border-radius: 5px;
 }
 
 
